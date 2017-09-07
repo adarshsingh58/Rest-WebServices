@@ -1,0 +1,11 @@
+If we go to POSTMAN chrome plugin and send a POST request to http://localhost:8080/REST_With_Produce_Consume/webapi/myresource 
+with plain text body and content-type as text and accept as application/xml, we will get response as:
+	
+	<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+	<student>
+    <id>12we</id>
+    <name>adarsh</name>
+	</student>
+
+Produces tells what kind of response will the rest class ill generate or produce
+Consumes tells what kind of request will rest class can accept or consume.
